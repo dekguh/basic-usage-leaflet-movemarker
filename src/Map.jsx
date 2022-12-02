@@ -65,7 +65,7 @@ const Map = () => {
   return (
     <div className='h-[100vh] w-full relative'>
       {/* panel play */}
-      <div className='absolute top-3 right-3 bg-white z-[9999]  p-3 rounded-md max-w-[240px] w-full'>
+      <div className='absolute top-3 right-3 bg-white z-[9999] p-3 rounded-md max-w-[240px] w-full'>
         <div className='mb-1'>
           <Button onClick={createMarker}>add marker</Button>
         </div>
