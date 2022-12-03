@@ -59,7 +59,7 @@ const Map = () => {
     if(instanceRef.current) instanceRef.current.getMarker().hideMarker(hideMarker)
     if(instanceRef.current) instanceRef.current?.getMarker()?.disableAnimate(animateMarker)
     if(instanceRef.current) instanceRef.current?.getCurrentPolyline()?.disableAnimate(animatePolyline)
-    if(instanceRef.current) instanceRef.current?.getMarker()?.disableFollowMarker(followMarker)
+    if(instanceRef.current) instanceRef.current?.getMarker()?.activeFollowMarker(followMarker)
   }, [hidePolylines, hideMarker, animateMarker, animatePolyline, followMarker])
 
   return (
